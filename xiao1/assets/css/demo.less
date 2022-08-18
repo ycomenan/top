@@ -1,0 +1,160 @@
+.box{
+    width: 100%;
+    background: #111;
+
+    .container{
+        .title{
+            font-size: 4em;
+            text-align: center;
+            font-family: OSLight;
+            color: #fff;
+            span{
+                font-size:0.5em;
+            }
+        }
+        .list{
+            display: flex;
+            margin-bottom: 6%;
+            padding-top: 4%;
+
+            .item{
+                .an{
+                    width: 25vw;
+                    height: 25vw;
+                    margin: 0 auto;
+                    
+                    margin-bottom: 4em;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .chen{
+                    text-align: center;
+
+                    .username{
+                        font-size: 1.5em;
+                        color: #fff;
+                        font-family: OSLight;
+                        text-transform: uppercase;
+                        
+                    }
+                    .remark{
+                        
+                        color: rgb(24, 212, 245);
+                        padding-top: 1.5em;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:1200px) {
+        .container{
+            width: 100%;
+
+            .list{
+                width: 100%;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+
+                .item{
+                    width: 100%;
+                    display: flex;
+                    margin-bottom: 4em;
+
+                    .img{
+                        margin: 0;
+                        margin-right: 0;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+        
+    }
+}
+.me{
+    width: 100%;
+    height:599px;
+    background: url(../img/banner.jpg) no-repeat left top;
+
+    .container{
+        .title{
+            color: #fff;
+            text-align: center;
+            font-size: 4.5em;
+            
+            font-family: OSBold;
+
+            span{
+                padding-left: 0.5em;
+            }
+        }
+        .remark{
+            font-size: 1.5em;
+            color: #fff;
+            text-align: center;
+            font-family: OSLight;
+        }
+    }
+   
+    .back{
+        width: 100%;
+        
+       .hezi{
+           width: 70%;
+           margin: 0 auto;
+           align-items: center;
+           display: flex;
+           justify-content: space-between;
+          margin-top: 1.2em;
+           .left{
+            width: 40%;
+            height: 45px;
+            background:rgb(64, 6, 119);
+            margin-bottom: em;
+           }
+           .center{
+            
+           }
+           .right{
+               font-size: 2em;
+               color: #fff;
+               text-transform: uppercase;
+           }
+          
+       }
+       
+       
+    
+}
+.back:nth-child(2){
+    .hezi{
+        .left{
+            width: 20%;
+            margin-left: 12em;
+        }
+    }
+}
+}
+.footer{
+    padding-bottom: 2.5%;
+    padding-top: 2.5%;
+    
+    width: 100%;
+    .container{
+        .left{
+           display: flex;
+           justify-content: space-between;
+            
+            .box{
+                width: 60%;
+                font-size: 1.6em;
+                color: #111111;
+                font-weight: bold;
+                padding-left: 2em;
+            }
+        }
+    }
+}
+
